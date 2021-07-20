@@ -6,6 +6,7 @@ import Header from "../components/Header";
 import PageHeader from '../components/PageHeader';
 
 import Employees from "../pages/Employees/Employees";
+import Demo from "../pages/Employees/Test";
 
 const theme = createMuiTheme({
   palette: {
@@ -52,7 +53,7 @@ function App() {
       <div className={classes.appMain}>
         <Header />
         
-        <Employees />
+        <Demo />
       </div>
       <CssBaseline />
     </ThemeProvider>

@@ -55,6 +55,7 @@ export default function EditForm(props) {
 
     const handleSubmit = e => {
         e.preventDefault()
+        console.log();
         if (validate()) {
             addOrEdit(values, resetForm);
         }
